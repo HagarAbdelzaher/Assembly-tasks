@@ -3,6 +3,25 @@
 #version 2.0
 #date:2/1/2020
 
+#Question
+#Translate the following C program to MIPS assembly. Use the same structure. Do not write a
+#clever shorter program. (2 marks)
+#int main() {
+#...
+#t1 = isOdd (10);
+#printf ("%d", (t1 ? "odd" : "even");
+#...
+#}
+#int isOdd (int n) {
+#return !isEven (n);
+#}
+#int isEven (int n) {
+#return ((n % 2) == 0));
+#}
+
+
+
+
 .data 
 OddStr: .asciiz "Odd"
 Evenstr: .asciiz "even"
